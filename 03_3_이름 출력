@@ -1,0 +1,10 @@
+# 리턴값 없는 함수
+# def 함수이름 (매개변수)
+#   명령블록
+
+# 사용법 (이름을 출력)
+
+def printName (name):
+    print(name)
+
+printName("이름")
