@@ -1,7 +1,0 @@
-A = int(input())
-B = input() # B 변수를 자료형으로 내버려 둬서 각각의 숫자를 곱셈 할 수 있음
-
-print(A*int(B[2])) # B의 1의 자리 숫자와 A 곱하기
-print(A*int(B[1])) # B의 10의 자리 숫자와 A 곱하기
-print(A*int(B[0])) # B의 100의 자리 숫자와 A 곱하기
-print(A*int(B))
