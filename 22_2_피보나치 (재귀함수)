@@ -1,0 +1,7 @@
+def fibo(n):
+    if (n <= 1): # n이 1과 같거나 작을 경우 n을 출력함 
+        return n
+    return fibo((n - 1)) + fibo((n - 2))
+
+n = int(input())
+print(fibo(n))
