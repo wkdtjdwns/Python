@@ -1,0 +1,12 @@
+n = [i for i in range(1,31)] 
+
+for _ in range(28):
+    # a를 28번 입력받고
+    a = int(input())
+    # a 를 std 리스트에서 지운다
+    n.remove(a)
+
+# 남은 2개 중 최솟값
+print(min(n))
+# 남은 2개 중 최댓값 출력
+print(max(n))
