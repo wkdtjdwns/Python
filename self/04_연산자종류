@@ -1,0 +1,15 @@
+#불린형
+print(2>3) #2가 3보다 크다 true/false
+print(3<6) #3이 6보다 작다 true/false
+print(1.3>=0) #1.3이 0보다 크거나 같다 true/false
+print(5<=2) #5가 2보다 작거나 같다 true/false
+print("이응"=="이응") #"이응"과"이응"은 같다 true/false
+print(11!=11) #11은 11과 다르다 true/false
+
+print("-----") 
+
+#논리연산
+print(4<32 and 10>=3) #4가 32보다 작고 10이 3보다 크거나 같다 true/false (둘다 참이어야만 함)
+print("fuck"!="suck" or "잘가"!="잘가")
+#"fuck" 은 "suck"과 다르거나 "잘가는 "잘가"와 다르다 true/false (둘중 하나만 참이여도 됨)
+print(not 5==5) #5는 5와 같지 않다 true/false (무조건 거짓이여야함)
