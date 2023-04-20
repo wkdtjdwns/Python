@@ -1,0 +1,15 @@
+text1 = "#내꺼하자"
+text2 = "#오늘부터1일"
+text3 = "#내여친"
+
+total_text = text1 + text2 + text3
+print(total_text)
+
+total_text = text1 + " " + text2 + " " + text3 #텍스트 1,2,3 사이에 띄어쓰기
+print(total_text)
+
+total_text = text1 + "\n" + text2 + "\n" + text3 #텍스트1,2,3 사이에 enter효과
+print(total_text)
+
+total_text = text1 + text2 + text3*3 #텍스트3만 3번 반복함
+print(total_text)
