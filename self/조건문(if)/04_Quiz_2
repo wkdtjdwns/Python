@@ -1,0 +1,19 @@
+# 가방과 시계의 가격을 입력받기
+
+# 10만 이상 = 할인율 30%, 5만 ~ 10만 이하 = 할인율 20%, 5만 미만 = 할인율 10%
+
+# 합계금액 출력
+
+price1 = int(input())
+price2 = int(input())
+
+total_price = price1 + price2
+
+if total_price >= 100000:
+    total_price = total_price * 0.7
+elif total_price >= 50000:
+    total_price = total_price * 0.8
+elif total_price < 50000:
+    total_price = total_price * 0.9
+
+print(total_price)    
