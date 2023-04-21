@@ -1,4 +1,3 @@
-#puiz1
 x = input("아무 숫자나 써봐요 >>>")
 y = input("다른 숫자도 써봐요 >>>")
 print(int(x) * int(y))
