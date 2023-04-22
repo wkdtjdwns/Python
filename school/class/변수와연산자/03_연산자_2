@@ -1,0 +1,4 @@
+a = 5
+b = 3
+print(a == b) # a 랑 b 는 같냐? True / False (False)
+print(a != b) # a 랑 b 는 다르냐? True / False (True)
