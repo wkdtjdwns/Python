@@ -1,0 +1,13 @@
+# for문 (정한 횟수만큼 반복함)
+
+for count1 in range(5):
+    print(count1, "번째 반복입니다.")
+
+print("-------------------")  
+
+# while문 (조건을 만족하지 않을 때까지 반복함)
+
+count2 = 0
+while count2 <5:
+    print(count2, "번째 반복입니다.")
+    count2 = count2 + 1
