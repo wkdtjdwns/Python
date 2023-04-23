@@ -1,0 +1,21 @@
+# 내가 생각한 숫자 맞추기
+# 10번의 기회동안 숫자를 맞춤
+# 10번의 기회 => 10번동안 입력을 받음
+# 10번 동안 => 10번 반복 => for 문 필요
+# 입력받음 => input() 필요
+# 내가 입력한 숫자가 맞는지 검사 => if 문 필요
+# 10번 반복할 동안 검사를 매번 수행 for 문 안에서 입력, 검사 받기
+
+
+
+answer = 15
+
+for i in range(10):
+  num = int(input('숫자를 맞추어 보세요>>> '))
+  if num == answer:
+      print('정답입니다!')
+      break
+  elif num < answer:
+    print('up!')
+  elif num > answer:
+    print('down!')
