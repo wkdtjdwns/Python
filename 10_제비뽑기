@@ -1,14 +1,12 @@
 import random
 
+n = int(input('인원 수를 입력해주세요>>> '))
 name_list = []
 
-while True:
+for i in range(n):
     names = input('이름을 입력해주세요>>> ')
     name_list.append(names)
-    stop = int(input('모두 입력하셨다면 -1 을 아직 아니라면 다른 숫자를 입력해 주세요>>> '))
-    if stop == -1:
-        break
 
-who = random.choice(name_list) # random.choice => 어떤 값들 중에서 랜덤한 값 하나를 출력함
+who = random.choice(name_list)
 
 print(f'당첨자는 {who} 입니다!')
