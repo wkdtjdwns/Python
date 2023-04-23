@@ -1,0 +1,10 @@
+# OR 연산자
+
+n = int(input('숫자를 입력해주세요>>> '))
+
+for i in range(1, n+1):
+  # or => 조건식 중에 하나라도 참이면 참
+  if i == 3 or i == 6 or i == 9:
+    print('X', end = ' ')
+  else:
+    print(i, end = ' ')
