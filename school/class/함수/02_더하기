@@ -1,0 +1,25 @@
+# 더하기 기능 sum
+
+'''
+def sum(a, b):
+  result = a+b
+
+sum(1,2) 
+print(result) => sum 함수 안에 있는 변수이기 때문에 sum 함수 안에서만 사용 가능하다.
+'''
+
+# 그래서 값을 돌려줘야함 (return)
+def sum(a, b):
+  result = a+b
+  return result 
+
+res = sum(1,2) # 1 + 2 = 3
+print(res)
+
+# 조금 더 간단하게 만들기
+
+def sum(a, b):
+  return a+b # return은 결과를 리턴할 뿐, 출력문 같은걸 리턴하지는 않음
+
+# 출력문 안에 함수를 집어 넣을 수 있음
+print( sum(1,2) ) # print()의 괄호를 띄어서 보기 편하게 함
