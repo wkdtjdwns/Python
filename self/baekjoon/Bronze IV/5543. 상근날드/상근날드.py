@@ -1,0 +1,6 @@
+burger1 = int(input())
+burger2 = int(input())
+burger3 = int(input())
+cola = int(input())
+cider = int(input())
+print( min(burger1, burger2, burger3) + min(cola, cider) - 50)
