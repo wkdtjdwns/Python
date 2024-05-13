@@ -42,10 +42,3 @@ a b
 ```
 b a
 ```
-
-## 풀이
-
-```python
-a, b = input().split(' ')
-print(b, a)
-```
