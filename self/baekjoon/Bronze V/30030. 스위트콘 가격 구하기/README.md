@@ -6,7 +6,7 @@
 
 ## 문제
 
-https://upload.acmicpc.net/fab029a6-3a8b-447f-86c6-46707d953823/-/preview/
+![image](https://github.com/wkdtjdwns/Python/assets/128266768/e525c8ea-278e-429e-8b21-575ba1e8a509)
 
 스위트콘의 가격은 A원이다. A는 100의 배수이다. 그런데, 스위트콘에 부가가치세 10%를 포함하니 가격이 B원이 되었다.
 
