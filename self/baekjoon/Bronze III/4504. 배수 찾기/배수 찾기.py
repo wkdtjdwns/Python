@@ -1,6 +1,6 @@
 n = int(input())
 while True:
-    num = int(input())
-    if num == 0: break
-    if num % n == 0: print(f'{num} is a multiple of {n}')
-    else: print(f'{num} is NOT a multiple of {n}')
+    a = int(input())
+    if a == 0: break
+    if a % n == 0: print("{} is a multiple of {}.".format(a, n))
+    else: print("{} is NOT a multiple of {}.".format(a, n))
