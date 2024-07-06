@@ -12,7 +12,7 @@
 
 N = 2인 경우에 정답은 5이다.
 
-![image](https://www.acmicpc.net/upload/images/howmanysq.png)
+![image](https://github.com/wkdtjdwns/Python/assets/128266768/d38e4e51-cf24-40d5-8033-c225c6611ad4)
 
 ## 입력
 
