@@ -1,0 +1,1 @@
+print('s' * int(input()))
