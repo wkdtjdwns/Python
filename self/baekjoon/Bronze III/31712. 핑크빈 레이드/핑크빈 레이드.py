@@ -1,4 +1,4 @@
-damage = [list(map(int, input().split())) for _ in range(3)]
+damage = [list(map(int, input().split(' '))) for _ in range(3)]
 h = int(input())
 second = 0
 
